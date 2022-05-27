@@ -1,14 +1,11 @@
-﻿using System;
-namespace ProblemSolving
+﻿namespace ProblemSolving
 {
-    internal class Program
+    public static class AmazingReplaceNotAmazing
     {
-        static void Main(string[] args)
+        public static string input;
+        public static string Amazing()
         {
-            AmazingReplaceNotAmazing.input = "Edabit is amazing";
-            string outP = AmazingReplaceNotAmazing.Amazing();
-            Console.WriteLine(outP);
-            /*string input = "Edabit is amazing";
+            //string input = "Edabit is amazing";
             string[] words = input.Split(' ');
 
             string result = "";
@@ -25,10 +22,10 @@ namespace ProblemSolving
                     result = input.Replace("amazing", "not amazing");
                 }
             }
-            Console.WriteLine(result);*/
+            return result;
 
 
-            /*string input = "EdabitA is amazing";
+            /*//string input = "EdabitA is amazing";
             string[] words = input.Split(" ");
             string result = "";
 
@@ -55,3 +52,6 @@ namespace ProblemSolving
         }
     }
 }
+/*AmazingReplaceNotAmazing.input = "Edabit is amazing";
+string outP = AmazingReplaceNotAmazing.Amazing();
+Console.WriteLine(outP);*/
